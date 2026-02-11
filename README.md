@@ -1,10 +1,10 @@
-# Author: Chibuike Okeke
-
 # Spring Boot Multi-Module Security Project
 
 This project demonstrates a **reusable authentication and authorization system** implemented with Spring Boot, modularized as a starter library and a sample application. It showcases **JWT-based authentication**, **role-based authorization**, and clean architecture principles.
 
 ---
+
+## Author: Chibuike Okeke
 
 ## Table of Contents
 
