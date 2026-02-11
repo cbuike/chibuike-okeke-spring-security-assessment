@@ -104,7 +104,6 @@ From the root directory:
 JWT configuration in application.yml of sample-application can be 
 overridden by your preferred values for secret and tokenExpiration.
 
-Overriding is important incase your secret key gets leaked or known
 ```
 app:
   security:
@@ -112,6 +111,10 @@ app:
       secret: yourSecret
       expiration: 3600000 # 1 hour in milliseconds
 ```
+**Note:**
+Overriding is important if your secret key gets leaked or exposed, but you don't need to change when running this application, default 
+values has already been set.
+
 
 ### Running The Application
 1. From project root directory, change directory to sample application directory by running `cd sample-application`.
