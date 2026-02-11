@@ -22,7 +22,7 @@ This project demonstrates a **reusable authentication and authorization system**
 
 ## Project Structure
 ```
-fcmb-spring-security-assessment
+chibuike-okeke-spring-security-assessment
 ├── pom.xml                         # Parent Maven POM (dependency & module management)
 ├── mvnw / mvnw.cmd                 # Maven Wrapper scripts
 ├── HELP.md                         # Spring Boot help documentation
